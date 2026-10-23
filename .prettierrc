@@ -5,7 +5,7 @@
   "tabWidth": 2,
   "semi": true,
   "singleAttributePerLine": true,
-  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]", "^@styles/(.*)"],
+  "importOrder": ["<BUILTIN_MODULES>", "<THIRD_PARTY_MODULES>", ".tsx$", ".ts$", "^@|^/", "@styles.*.(css|scss)$"],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
 }
